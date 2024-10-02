@@ -3708,6 +3708,10 @@ hero-btn {
     }
 }
 
+#navigation .active{
+    color: #BC996B;
+}
+
 /* line 52, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
 .header-area .menu-wrapper .main-menu ul li {
@@ -3719,7 +3723,7 @@ hero-btn {
 /* line 56, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
 .header-area .menu-wrapper .main-menu ul li a {
-    color: #fff;
+    color: #000;
     font-weight: 400;
     padding: 20px 20px;
     display: block;
@@ -9722,7 +9726,7 @@ del {
 
 .portfolios {
     max-width: 1150px;
-    margin: 0 auto;
+    /* margin:auto; */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
