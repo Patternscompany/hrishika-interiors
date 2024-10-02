@@ -9726,7 +9726,7 @@ del {
 
 .portfolios {
     max-width: 1150px;
-    /* margin:auto; */
+    margin:auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
