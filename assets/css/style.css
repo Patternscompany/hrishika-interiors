@@ -9766,3 +9766,20 @@ body, html{
 .contact-info__icon i {
     color: #d9b078;
 }
+
+.nav-item a.active, .nav-item a:hover{
+    background-color: #d9b078 !important;
+    color: #000 !important;
+    transition: background-color 1s, color 1s;
+}
+
+.nav-item a{
+    background-color: #fff !important;
+    color: #d9b078;
+}
+
+.package-section{
+    border: 1px solid #d9b078;
+    padding: 20px;
+    border-radius: 10px;
+}
