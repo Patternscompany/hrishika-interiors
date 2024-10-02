@@ -9746,7 +9746,12 @@ del {
     background-color: grey;
 }
 
+.image-container{
+    padding: 10px;
+    padding-inline: 0;
+}
+
 .image{
     width: 100%;
-    height: auto;
+    height: 300px;
 }
