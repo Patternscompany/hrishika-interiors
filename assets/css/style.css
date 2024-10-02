@@ -9712,6 +9712,9 @@ del {
 }
 
 
+body, html{
+            overflow-x: hidden;
+        }
 .renohead{
     font-weight: bold;
     color:#D9B078;
