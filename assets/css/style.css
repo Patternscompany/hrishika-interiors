@@ -9745,3 +9745,8 @@ del {
 .bg1{
     background-color: grey;
 }
+
+.image{
+    width: 100%;
+    height: auto;
+}
