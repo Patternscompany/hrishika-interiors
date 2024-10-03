@@ -10020,3 +10020,24 @@ body {
     }
 }
 
+.whatsapp {
+    position: fixed;
+    left: 30px;
+    bottom: 25px;
+    z-index: 999;
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .whatsapp i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    background-color: greeen;
+    /* border-radius: 50%; */
+  }
