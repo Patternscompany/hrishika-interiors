@@ -9778,13 +9778,80 @@ body, html{
     color: #d9b078;
 }
 
-.package-section{
-    border: 1px solid #d9b078;
-    padding: 20px;
+.package-card {
+    border: 2px solid #d9b078; /* You can adjust the border width as needed */
     border-radius: 10px;
-}
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 10px 5px #d9b078;
+  }
 
-.package-section .package-card{
-    border: 1px solid #000;
-    margin: 10px;
+  .package-card:hover {
+    transform: scale(1.01); /* Adjust the scale as needed */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for emphasis */
+}
+  
+  .backss{
+    background-color:  #d9b078;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    padding-top: 10px;
+    /* height:50px; */
+  }
+  
+  .clintschoose{
+    height:270px;
+    width:400px;
+    text-align: center;
+    
+  }
+  @media(max-width:992px){
+    .clintschoose{
+      width: 100%;
+    }
+  }
+  /* linear-gradient(135deg, #4b6cb7, #71b280, #ff6fd8);*/
+  
+  .backicons{
+    background-color:lightblue;
+    height:32px;
+    width:32px;
+    padding: 2px;
+    border-radius: 2px;
+  }
+  
+  .rightssym{
+    height:20px;
+    width:20px;
+   
+  }
+  .googlesreviews{
+    height: 130px;
+    width:250px;
+    text-align: center;
+  }
+  
+  .modal-text{
+    color: #000;
+  }
+  .patterns-link{
+    color: #19184d;
+  }
+  
+  .patterns-link:hover{
+    color: #19184D !important;
+  }
+  
+  /* .contact-form .rounded{
+    padding: 3rem !important;
+  } */
+  
+  @media (max-width:992px){
+    .contact-form .rounded{
+      padding: 0 !important;
+    }
+  }
+.plan-header-1, .plan-header{
+  color: #000 !important;
 }
