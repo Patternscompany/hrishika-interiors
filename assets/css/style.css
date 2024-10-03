@@ -597,15 +597,15 @@ hr {
 
 /* line 271, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
-.btn::before {
+/* .btn::before { */
    
-}
+/* } */
 
 /* line 290, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
-.btn:hover::before {
+/* .btn:hover::before { */
    
-}
+/* } */
 
 /* line 295, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
@@ -629,9 +629,9 @@ a:hover {
 
 /* line 305, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
-.btn-black {
+/* .btn-black {
     background:;
-}
+} */
 
 /* line 308, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
@@ -3857,9 +3857,12 @@ hero-btn {
 }
 
 /* line 163, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
-
+/* 
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #D9B078; !important;
+    background-color: #D9B078; important
+} */
+.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+    background-color: #D9B078 !important; /* Correct placement of !important */
 }
 
 /* line 167, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -5617,14 +5620,14 @@ height:700px;
 
 /* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 
-.blog_area a:hover,
+/* .blog_area a:hover,
 .blog_area a :hover {
     background: -webkit-linear-gradient(131deg, #D9B078; 0%, #D9B078; 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
     transition: .4s;
-}
+} */
 
 /* line 139, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 
@@ -9722,9 +9725,9 @@ body, html{
 }
 
 .text-section p i {
-    color: #000; /* Change this to your desired color */
-    margin-right: 10px; /* Adjust spacing between icon and text */
-    font-size: 1.2em; /* Adjust size of the icon */
+    color: #000; 
+    margin-right: 10px; 
+    font-size: 1.2em; 
 }
 
 .portfolios {
@@ -9778,16 +9781,16 @@ body, html{
     color: #d9b078;
 }
 
-.package-card {
-    border: 2px solid #d9b078; /* You can adjust the border width as needed */
+/* .package-card {
+    border: 2px solid #d9b078;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     box-shadow: 10px 10px 5px #d9b078;
   }
 
   .package-card:hover {
-    transform: scale(1.01); /* Adjust the scale as needed */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for emphasis */
+    transform: scale(1.01); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
   
   .backss{
@@ -9797,7 +9800,7 @@ body, html{
     border-bottom-right-radius: 0px;
     text-align: center;
     padding-top: 10px;
-    /* height:50px; */
+
   }
   
   .clintschoose{
@@ -9843,9 +9846,7 @@ body, html{
     color: #19184D !important;
   }
   
-  /* .contact-form .rounded{
-    padding: 3rem !important;
-  } */
+
   
   @media (max-width:992px){
     .contact-form .rounded{
@@ -9855,3 +9856,167 @@ body, html{
 .plan-header-1, .plan-header{
   color: #000 !important;
 }
+
+ */
+
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.package-card {
+    background-color: #ffffff;
+    border: 2px solid #d9b078;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+
+.plan-header-1 {
+    font-size: 1.8rem; 
+    font-weight: bold;
+    color: #007bff; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+
+.package-feature {
+    padding: 10px;
+}
+
+.package-icon,
+.backicons,
+.rightssym {
+    width: 35px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.backicons:hover,
+.rightssym:hover {
+    transform: scale(1.1);
+}
+
+
+.plan-header {
+    font-size: 1.3rem; 
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.feature-details p {
+    font-size: 1rem; 
+    color: #555;
+    line-height: 1.5; 
+}
+
+
+.buy-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #abb1b7; 
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold; 
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 30;
+}
+
+.buy-btn:hover {
+    background-color: #979b9f; 
+    transform: translateY(-2px); 
+}
+
+
+.backss {
+    background-color: #d9b078;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    padding: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.clintschoose {
+    height: 270px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.1s ease; 
+}
+
+.clintschoose:hover {
+    transform: scale(1.02);
+}
+
+@media(max-width:992px) {
+    .clintschoose {
+        width: 100%;
+    }
+}
+
+
+.backicons {
+    background-color: lightblue;
+    height: 36px; 
+    width: 36px;
+    padding: 4px; 
+    border-radius: 50%; 
+}
+
+/* Right symbol */
+.rightssym {
+    height: 22px; 
+    width: 22px;
+}
+
+
+.googlesreviews {
+    height: 130px;
+    width: 250px;
+    text-align: center;
+}
+
+
+.modal-text {
+    color: #000;
+}
+
+
+.patterns-link {
+    color: #8c8b94;
+}
+
+.patterns-link:hover {
+    color: #ff6fd8; 
+}
+
+
+@media (max-width:992px) {
+    .contact-form .rounded {
+        padding: 0 !important;
+    }
+}
+
+.plan-header-1, .plan-header {
+    color: #000 !important;
+}
+
+@media (max-width: 768px) {
+    .package-card {
+        margin-bottom: 20px;
+    }
+}
+
