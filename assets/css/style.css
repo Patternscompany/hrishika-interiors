@@ -9483,14 +9483,6 @@ del {
     text-align: justify;
     font-weight: lighter;
 }
-
-@media (max-width:992px){
-    .paras2{
-        word-spacing: 2px;
-        text-align: start;
-    }
-}
-
 .paras3{
     color:black;
     font-weight: 600;
