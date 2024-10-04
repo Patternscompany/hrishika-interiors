@@ -3786,7 +3786,7 @@ hero-btn {
 
 .header-area .menu-wrapper .main-menu ul ul.submenu > li > a {
   padding: 6px 10px !important;
-  font-size: 16px;
+  font-size: 11px;
   color: #fdfdfd;
   font-family: sans-serif;
 }
@@ -9165,8 +9165,13 @@ del {
 /*# sourceMappingURL=style.css.map */
 
 .imgsizes {
-  height: 50px;
-  width: 150px;
+  /* height: 50px; */
+  width: 250px;
+}
+@media (max-width:992px){
+    .imgsizes{
+        width: 90%;
+    }
 }
 .imgsizes1 {
   height: 150px;
@@ -9694,7 +9699,7 @@ del {
 
 body,
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .renohead {
   font-weight: bold;
