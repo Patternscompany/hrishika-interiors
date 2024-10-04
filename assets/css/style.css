@@ -9479,7 +9479,7 @@ del {
   font-weight: 600;
   font-family: "Roboto";
   font-size: 15px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .icon-sizes {
   height: 40px;
