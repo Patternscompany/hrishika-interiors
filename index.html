@@ -103,29 +103,40 @@
                             <!-- Right Column for Contact Form -->
                             <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1">
                                 <div class="contact-form-container" data-animation="fadeInRight" data-delay=".8s">
-                                    <form action="#">
+                                    <form action="#" onsubmit="sendWhatsAppQuote(event)">
                                         <div class="form-group">
                                             <label class="text-dark" for="name">Name</label>
-                                            <input type="text" id="name" name="name" class="form-control"
-                                                placeholder='Enter Your Name' required>
+                                            <input type="text" id="name" name="name" class="form-control" placeholder='Enter Your Name' required>
                                         </div>
                                         <div class="form-group">
                                             <label class="text-dark" for="phone">Phone Number</label>
-                                            <input type="tel" id="phone" name="phone" class="form-control"
-                                                placeholder='Enter Your Phone Number' required>
+                                            <input type="tel" id="phone" name="phone" class="form-control" placeholder='Enter Your Phone Number' required>
                                         </div>
-                                        <div class="form-group form-check">
-                                            <input type="checkbox" id="whatsapp-updates" name="whatsapp-updates"
-                                                class="form-check-input">
-                                            <label for="whatsapp-updates" class="form-check-label text-dark">Send me
-                                                WhatsApp updates</label>
-                                        </div>
-
+                                    
                                         <div class="pt-3">
-                                            <button type="submit" class="btn btn-dark text-white">Get Free
-                                                Quote</button>
+                                            <button type="submit" class="btn btn-dark text-white">Get Free Quote</button>
                                         </div>
                                     </form>
+                                    
+                                    <script>
+                                    function sendWhatsAppQuote(event) {
+                                        event.preventDefault(); // Prevent form submission
+                                    
+                                        // Collect form data
+                                        const name = document.getElementById('name').value;
+                                        const phone = document.getElementById('phone').value;
+                                    
+                                        // Create WhatsApp message text
+                                        const whatsappMessage = `Name: ${name}%0APhone: ${phone}`;
+                                    
+                                        // WhatsApp URL (replace PHONE_NUMBER with the recipient's WhatsApp number, including country code)
+                                        const whatsappURL = `https://api.whatsapp.com/send?phone=+919505085008&text=${whatsappMessage}`;
+                                    
+                                        // Redirect to WhatsApp
+                                        window.open(whatsappURL, '_blank');
+                                    }
+                                    </script>
+                                    
                                 </div>
                             </div>
                         </div>
