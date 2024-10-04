@@ -3851,7 +3851,7 @@ hero-btn {
 /* line 160, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -23px;
+  top: -40px;
 }
 
 /* line 163, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -9170,7 +9170,7 @@ del {
 }
 @media (max-width:992px){
     .imgsizes{
-        width: 90%;
+        width: 160px;
     }
 }
 .imgsizes1 {
