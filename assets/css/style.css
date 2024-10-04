@@ -3862,7 +3862,7 @@ hero-btn {
     background-color: #7ED857; important
 } */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #7ED857 !important; /* Correct placement of !important */
+    background-color: #ffffff !important; /* Correct placement of !important */
 }
 
 /* line 167, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */

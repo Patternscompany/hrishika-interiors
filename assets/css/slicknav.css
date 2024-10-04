@@ -36,7 +36,7 @@
 }
 
 .slicknav_menu .slicknav_icon:before {
-    background: transparent;
+    background: #7ED857;
     width: 1.125em;
     height: 0.875em;
     display: block;
