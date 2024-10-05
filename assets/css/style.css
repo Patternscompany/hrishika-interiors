@@ -31,7 +31,12 @@
 
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:200,300,400,500,600,700,800|Barlow:300,400,500,600,700&display=swap");
 /* line 34, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
-
+@font-face {
+  font-family: 'Saturnest'; 
+  src: url('/assets/fonts/saturnest-font/Saturnest-wodo6.ttf')  format('truetype'); 
+  font-weight: normal; 
+  font-style: normal;  
+}
 .white-bg {
   background: #ffffff;
 }
@@ -239,7 +244,7 @@
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 body {
-  font-family: sans-serif;
+  font-family: 'sans-serif';
   font-weight: normal;
   font-style: normal;
 }
@@ -252,11 +257,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: sans-serif;
+  font-family: 'saturnest';
   color: #fff;
   margin-top: 0px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   text-transform: normal;
 }
 
@@ -4145,7 +4150,7 @@ hero-btn {
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "saturnest";
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -9705,7 +9710,7 @@ html {
   font-weight: bold;
   color: #000;
   font-size: 20px;
-  margin-bottom: 0 !important;
+  margin-bottom: 1rem;
 }
 
 .text-section p i {
