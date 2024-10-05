@@ -22,7 +22,9 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link href="assets/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- jQuery and Bootstrap JS -->
@@ -105,6 +107,7 @@
                 <section class="portfolio section text-center">
                     <!-- Section Title -->
                     <div class="container package-title mt-4">
+                      <div class="col-12" data-aos="fade-left">
                         <span>Interior Packages</span>
                         <h2>Explore Our Interior Packages</h2>
                         <p>
@@ -144,6 +147,7 @@
                                             <img src="assets/img/icons/cd.png" />
                                           </div>
                                           <div class="pb-1">
+                                            
                                             <h3 class="plan-header-1 pb-1 pl-3 text-white text-center" ;>Budget Friendly</h3>
                                           </div>
                                         </div>
@@ -2294,7 +2298,10 @@
                                     <span class="paras3 text-white" style="font-weight: bold;">Hrishika Interiors</span>
                                     <spam class="paras3">| Copyright </spam> &copy;
                                     <script>
-                                        document.write(new Date().getFullYear());
+                                        // document.write(new Date().getFullYear());
+                                        document.addEventListener('DOMContentLoaded', function () {
+                                        AOS.init();
+                                             });
                                     </script>
                                     <spam class="paras3">All rights reserved | Designed by | </spam><a
                                         href="https://thepatternscompany.com/" target="_blank">
@@ -2356,6 +2363,8 @@
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 
 </body>
 
