@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 
 <body>
@@ -106,16 +107,19 @@
 
 
                 <div class="row">
-                    <div class="col-12 ">
+                    <div class="col-12" data-aos="fade-left">
 
                         <h6 class="fw-bold col_brow font-14 heads">Get in Touch</h6>
                     </div>
 
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" id="contactForm" novalidate="novalidate" onsubmit="sendWhatsAppMessage(event)">
+                            
                             <div class="row">
+                                
                                 <div class="col-12">
                                     <div class="form-group">
+                                        <div class="col-12" data-aos="fade-left"></div>
                                         <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
                                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" 
                                             placeholder="Enter Message"></textarea>
@@ -143,7 +147,8 @@
                             <div class="form-group mt-3">
                                 <button class="btn btn-dark text-white pl-5 pr-5">Submit</button>
                             </div>
-                        </form>
+                          </form> 
+                          
                         
                         <script>
                         function sendWhatsAppMessage(event) {
@@ -167,10 +172,12 @@
                         </script>
                         
                     </div>
-                    <div class="col-lg-3 offset-lg-1">
+                    <!-- <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
+                            
                             <span class="contact-info__icon"><i class="fa fa-map-marker-alt"></i></span>
                             <div class="media-body">
+                                
                                 <h3>Address</h3>
                                 <p>Lingampalli Station Rd, Lingampally, Serilingampalle (M), Telangana 500019</p>
                             </div>
@@ -193,7 +200,32 @@
                     </div>
                 </div>
             </div>
+            </div> -->
+            <div class="col-lg-3 offset-lg-1" data-aos="fade-up" data-aos-duration="1000">
+                <div class="media contact-info">
+                    <span class="contact-info__icon"><i class="fa fa-map-marker-alt"></i></span>
+                    <div class="media-body">
+                        <h3>Address</h3>
+                        <p>Lingampalli Station Rd, Lingampally, Serilingampalle (M), Telangana 500019</p>
+                    </div>
+                </div>
+                <div class="media contact-info" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <span class="contact-info__icon"><i class="fa fa-phone"></i></span>
+                    <div class="media-body">
+                        <a href="+919550565703">+919550565703</a>
+                        <a href="tel:+919505085008">+919505085008</a>
+                        <p>Mon to Fri 9am to 6pm</p>
+                    </div>
+                </div>
+                <div class="media contact-info" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <span class="contact-info__icon"><i class="fa fa-envelope"></i></span>
+                    <div class="media-body">
+                        <h3>hrishikainteriors@gmail.com</h3>
+                        <p>Send us your query anytime!</p>
+                    </div>
+                </div>
             </div>
+            
         </section>
 
 
@@ -404,10 +436,17 @@
     <script src="./assets/js/jquery.validate.min.js"></script>
     <script src="./assets/js/mail-script.js"></script>
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init();
+        });
+    </script>
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 </body>
 
