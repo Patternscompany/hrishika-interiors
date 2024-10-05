@@ -2911,7 +2911,7 @@ hero-btn {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #ff1313;
+  border-top-color: #d9b078;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -9991,7 +9991,7 @@ html {
 .whatsapp {
   position: fixed;
   left: 30px;
-  bottom: 25px;
+  bottom: 16px;
   z-index: 999;
   background-color: green;
   width: 45px;
