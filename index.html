@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 
 <body class="body-bg">
@@ -48,8 +49,9 @@
                 <div class="container-fluid">
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
-                        <div class="logo" >
-                            <a href="index.html"><img class="imgsizes" src="assets/img/logo/hrishika-logo.png" alt=""></a>
+                        <div class="logo">
+                            <a href="index.html"><img class="imgsizes" src="assets/img/logo/hrishika-logo.png"
+                                    alt=""></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -97,7 +99,8 @@
                                 <div class="hero__caption">
 
                                     <h1 class="mainhead" data-animation="fadeInLeft" data-delay=".6s">Modern Interior &
-                                        <br />Design</h1>
+                                        <br />Design
+                                    </h1>
                                 </div>
                             </div>
                             <!-- Right Column for Contact Form -->
@@ -106,37 +109,40 @@
                                     <form action="#" onsubmit="sendWhatsAppQuote(event)">
                                         <div class="form-group">
                                             <label class="text-dark" for="name">Name</label>
-                                            <input type="text" id="name" name="name" class="form-control" placeholder='Enter Your Name' required>
+                                            <input type="text" id="name" name="name" class="form-control"
+                                                placeholder='Enter Your Name' required>
                                         </div>
                                         <div class="form-group">
                                             <label class="text-dark" for="phone">Phone Number</label>
-                                            <input type="tel" id="phone" name="phone" class="form-control" placeholder='Enter Your Phone Number' required>
+                                            <input type="tel" id="phone" name="phone" class="form-control"
+                                                placeholder='Enter Your Phone Number' required>
                                         </div>
-                                    
+
                                         <div class="pt-3">
-                                            <button type="submit" class="btn btn-dark text-white">Get Free Quote</button>
+                                            <button type="submit" class="btn btn-dark text-white">Get Free
+                                                Quote</button>
                                         </div>
                                     </form>
-                                    
+
                                     <script>
-                                    function sendWhatsAppQuote(event) {
-                                        event.preventDefault(); // Prevent form submission
-                                    
-                                        // Collect form data
-                                        const name = document.getElementById('name').value;
-                                        const phone = document.getElementById('phone').value;
-                                    
-                                        // Create WhatsApp message text
-                                        const whatsappMessage = `Name: ${name}%0APhone: ${phone}`;
-                                    
-                                        // WhatsApp URL (replace PHONE_NUMBER with the recipient's WhatsApp number, including country code)
-                                        const whatsappURL = `https://api.whatsapp.com/send?phone=+919505085008&text=${whatsappMessage}`;
-                                    
-                                        // Redirect to WhatsApp
-                                        window.open(whatsappURL, '_blank');
-                                    }
+                                        function sendWhatsAppQuote(event) {
+                                            event.preventDefault(); // Prevent form submission
+
+                                            // Collect form data
+                                            const name = document.getElementById('name').value;
+                                            const phone = document.getElementById('phone').value;
+
+                                            // Create WhatsApp message text
+                                            const whatsappMessage = `Name: ${name}%0APhone: ${phone}`;
+
+                                            // WhatsApp URL (replace PHONE_NUMBER with the recipient's WhatsApp number, including country code)
+                                            const whatsappURL = `https://api.whatsapp.com/send?phone=+919505085008&text=${whatsappMessage}`;
+
+                                            // Redirect to WhatsApp
+                                            window.open(whatsappURL, '_blank');
+                                        }
                                     </script>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -207,21 +213,25 @@
             <div class="container-xl portfolios">
                 <div class="row">
                     <div class="col-md-6 col-12 mb-3 mb-md-0">
-                        <div class="overview_1l position-relative">
-                            <div class="overview_1li">
+                        <div class="overview_1l position-relative" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                            <div class="overview_1li" >
                                 <img class="imgabout" src="assets/img/hrishika-images/aboutimgs.jpg" alt="abc"
                                     class="img-fluid">
                             </div>
-                            <div class="overview_1li1 position-absolute"></div>
+                            <!-- <div class="overview_1li1 position-absolute"></div> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="overview_1r">
+                        <div class="overview_1r" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
                             <h6 class="fw-bold col_brow font-14 heads">OUR INTERIOR'S OVERVIEW</h6>
 
                             <p class="col_brow fs-5 fw-bold paras pt-3"><i class="fa fa-check-circle me-2 col_brow p-2"
                                     style="color:#D9B078;"></i>Many important brands have given us their trust</p>
-                            <p class="text-dark paras2 pb-5">Hrishika Interiors specializes in creating elegant and personalized spaces that reflect your unique style and vision.With a focus on attention to detail and premium craftsmanship,we bring life to every corner,blending functionality with aesthetics.Whether it's residential or commercial,we deliver interiors that are timeless,sophisticated,and perfectly tailored to your needs.</p>
+                            <p class="text-dark paras2 pb-5">Hrishika Interiors specializes in creating elegant and
+                                personalized spaces that reflect your unique style and vision.With a focus on attention
+                                to detail and premium craftsmanship,we bring life to every corner,blending functionality
+                                with aesthetics.Whether it's residential or commercial,we deliver interiors that are
+                                timeless,sophisticated,and perfectly tailored to your needs.</p>
                             <div class="overview_1ri row  mb-3">
                                 <div class="col-md-6 col-sm-6 col-12 mb-3 mb-sm-0">
                                     <div class="overview_1ril">
@@ -230,16 +240,19 @@
                                             <h6 class="fw-bold vision renohead"> OUR VISION</h6>
                                         </div>
                                         <p class="mt-3 text-dark paras2">To be a leading name in the interior design
-                                            industry, known for creating innovative,sustainable, and timeless spaces that inspire and elevate everyday living.</p>
+                                            industry, known for creating innovative,sustainable, and timeless spaces
+                                            that inspire and elevate everyday living.</p>
                                     </div>
-                                </div>           
+                                </div>
                                 <div class="col-md-6 col-sm-6 col-12">
                                     <div class="overview_1ril">
                                         <div class="d-flex flex-row justify-content-center align-items-center">
                                             <img class="icon-sizes" src="assets/img/iconsandvectors/mission.png" />
                                             <h6 class="fw-bold vision renohead">OUR MISSION</h6>
                                         </div>
-                                        <p class="mt-3 text-dark paras2">At Hrishika Interiors, our mission is to transform spaces into personalized environments that blend style, comfort, and functionality. </p>
+                                        <p class="mt-3 text-dark paras2">At Hrishika Interiors, our mission is to
+                                            transform spaces into personalized environments that blend style, comfort,
+                                            and functionality. </p>
                                     </div>
                                 </div>
                             </div>
@@ -391,7 +404,7 @@
 
         <section class="pb-5 portfolios" style="background-color:rgb(248, 245, 245);">
             <div class="row justify-content-center pt-3 pb-5">
-                <div class="cl-xl-7 col-lg-8 col-md-10">
+                <div class="cl-xl-7 col-lg-8 col-md-10" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
 
                     <div class="section-tittle text-center">
 
@@ -403,7 +416,7 @@
             </div>
 
 
-            <div class="container containers pt-2">
+            <div class="container containers pt-2" data-aos="slide-rightt" data-aos-duration="1000" data-aos-delay="500">
                 <div class="text-section pb-5">
                     <h6 class="renohead">Living Room</h6>
                     <p class="paras2"><i class="fas fa-arrow-circle-right"></i> Revamp your living room with Hrishika
@@ -414,7 +427,7 @@
 
                 </div>
 
-                <div class="image-section pb-5 pt-5 mb-5">
+                <div class="image-section pb-5 pt-5 mb-5" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="500">
                     <img src="assets/img/hero/liv.png" alt="Living Room Image 1" class="active">
                     <img src="assets/img/hero/liv0.1.png" alt="Living Room Image 2">
                     <img src="assets/img/hero/liv1.0.png" alt="Living Room Image 3">
@@ -424,14 +437,14 @@
 
             <div class="container containers pt-5">
 
-                <div class="image-section mt-5 pt-5 mb-5">
+                <div class="image-section mt-5 pt-5 mb-5" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="500">
 
                     <img src="assets/img/hero/bed1.0.png" alt="Living Room Image 1" class="active">
                     <img src="assets/img/hero/bed1.jpg" alt="Living Room Image 2">
                     <img src="assets/img/hero/bed2.0.png" alt="Living Room Image 3">
                     <img src="assets/img/hero/bed2.avif" alt="Living Room Image 4">
                 </div>
-                <div class="text-section pt-3 mt-3">
+                <div class="text-section pt-3 mt-3" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="500">
                     <h4 class="renohead" class="text-dark mt0">Bedroom</h4>
                     <p class="paras2"><i class="fas fa-arrow-circle-right"></i>Design your dream bedroom with Hrishika
                         Interiors. We combine comfort and style to create a restful retreat that reflects your personal
@@ -832,7 +845,8 @@
                         <div class="col-xl-6 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img1.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img1.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -844,7 +858,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img2.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img2.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -856,7 +871,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img3.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img3.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -868,7 +884,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img4.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img4.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -880,7 +897,8 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img5.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img5.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -892,7 +910,8 @@
                         <div class="col-xl-6 col-lg-4 col-md-6">
                             <div class="single-gallery mb-30">
                                 <div class="gallery-img"
-                                    style="background-image: url(assets/img/commercialcaorosals/background-img6.jpg);"></div>
+                                    style="background-image: url(assets/img/commercialcaorosals/background-img6.jpg);">
+                                </div>
                                 <div class="thumb-content-box">
                                     <div class="thumb-content">
                                         <h3><span>Gallery</span>Interior</h3>
@@ -1126,7 +1145,7 @@
 
 
                                     <div class="footer-number">
-                                        <a href="tel:+919550565703" class="text-light">+919550565703</a><br/>
+                                        <a href="tel:+919550565703" class="text-light">+919550565703</a><br />
                                         <a href="tel:+919505085008" class="text-light">+919505085008</a>
 
 
@@ -1158,7 +1177,7 @@
                                 <div class="pb-2 text-dark">
                                     <a href="packages.html" class=" paras3" style="font-weight: bold;">Packages</a>
                                 </div>
-                                
+
                                 <div class="pb-2 text-dark">
                                     <a href="contact.html" class="paras3" style="font-weight: bold;">Contact Us</a>
                                 </div>
@@ -1197,7 +1216,8 @@
 
                                 </div>
                                 <h5>Address</h5>
-                                <p class="paras3">Lingampalli Station Rd, Lingampally, Serilingampalle (M), Telangana 500019
+                                <p class="paras3">Lingampalli Station Rd, Lingampally, Serilingampalle (M),
+                                    Telangana 500019
                                 </p>
                                 <p class="paras3"><i class="fa fa-envelope h-30 w-30 pr-2"
                                         style="color:white; font-weight: bold;"></i> hrishikainteriors@gmail.com</p>
@@ -1253,13 +1273,13 @@
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
-    
+
 
     <div class="whatsapp">
         <a href="https://wa.me/+919505085008" target="_blank">
-          <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-whatsapp"></i>
         </a>
-      </div>
+    </div>
 
 
 
@@ -1297,7 +1317,11 @@
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
 
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init();
+        });
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -1305,7 +1329,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>
