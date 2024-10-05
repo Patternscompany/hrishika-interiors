@@ -27,6 +27,7 @@
             <link rel="stylesheet" href="assets/css/style.css">
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
    </head>
 
    <body class="body-bg">
@@ -121,7 +122,7 @@
 
     <section class="pb-5" style="background-color:white;">
         <div class="row justify-content-center pt-3 pb-5">
-            <div class="cl-xl-7 col-lg-8 col-md-10">
+            <div class="col-xl-7 col-lg-8 col-md-10" data-aos="fade-left" data-aos-duration="700">
            
                 <h6 class="fw-bold col_brow font-14 heads text-center">End to End Residential</h6>
 
@@ -135,8 +136,8 @@
         </div>
             
         
-        <div class="container containers pt-5">
-            <div class="text-section pb-5">
+        <div class="container containers pt-5" >
+            <div class="text-section pb-5" data-aos="slide-left" data-aos-duration="700">
                 
               
                 <h6 class="renohead">Consultation and Planning</h6>
@@ -146,13 +147,13 @@
                 </div>
                 
             </div>
-            <div class="image-section pb-5 pt-5 mb-5">
+            <div class="image-section pb-5 pt-5 mb-5" data-aos="fade-right" data-aos-duration="700">
                 <img src="assets/img/service-images/Picture5.png" alt="Living Room Image 1">
                 
             </div>
         </div>
         
-        <div class="container containers pt-5">
+        <div class="container containers pt-5" data-aos="slide-left" data-aos-duration="700">
            
             <div class="image-section mt-5 pt-5 mb-5">
                
@@ -682,8 +683,14 @@
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
      <script src="https://kit.fontawesome.com/4905bcc1ac.js" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init();
+        });
     </script>
 <script>
     AOS.init({
