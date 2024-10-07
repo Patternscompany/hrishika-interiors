@@ -10041,5 +10041,6 @@ html {
    display: none !important;
   }
 }
-
-
+.shadow-filter {
+  filter: drop-shadow(5px 5px 3px #d9b078);
+}
