@@ -10017,9 +10017,9 @@ html {
 
 .footer-bg {
   /* background-color: #d9b078;  */
-  background: url(/assets/img/gallery/3d-rendering-contemporary-modern-dining-room-living-room-with-luxury-decor.jpg);
+  /* background: url(/assets/img/gallery/3d-rendering-contemporary-modern-dining-room-living-room-with-luxury-decor.jpg); */
 }
-.footer-bg::before{
+/* .footer-bg::before{
   position: absolute;
   content: "";
   top: 0;
@@ -10028,7 +10028,7 @@ html {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
  
-}
+} */
 .footer-bg h5{
   color: #d9b078 ;
 }
