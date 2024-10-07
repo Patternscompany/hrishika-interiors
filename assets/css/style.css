@@ -10029,3 +10029,17 @@ html {
         font-size: 16px;
     }
 }
+
+.fa-angle-down{
+  font-size: 1.0rem;
+  font-weight: 600;
+  margin-left: 0.2rem;
+
+}
+@media(max-width:992px){
+  .fa-angle-down{
+   display: none !important;
+  }
+}
+
+
