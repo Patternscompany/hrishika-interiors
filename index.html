@@ -90,28 +90,7 @@
         </div>
         <!-- Header End -->
     </header>
-<style>
-    .logo a{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .logo a h3{
-        margin: 0;
-      font-weight: 900 !important;
-      font-family: unset;
-        background: linear-gradient(to right,#d9b078,#343a40);
-        background-clip: text;
-        color: transparent;
-        font-size: 1.5rem;
-        /* text-align: center; */
-    }
-    .logo a h3 p{
-        color: transparent;
-        margin: 0;
-        font-weight: 500;
-    }
-</style>
+
 
     <main>
         <!--? slider Area Start-->
@@ -1159,9 +1138,16 @@
                             <div class="single-footer-caption ">
                                 <!-- logo -->
                                 <div class="footer-logo footer-tittle">
-                                    <!-- <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a> -->
-                                    <a href="index.html"><img class="imgsizes" src="assets/img/commercialcaorosals/hrishika-interior-logo.png"
-                                            alt=""></a>
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img class="imgsizes" src="assets/img/logo/hrishika-logo-favicon.png"
+                                                alt="">
+                                            
+                                            <h3>HRISHIKA INTERIORS
+                                                <P>YOUR CHOICE OUR PROMISE</P>
+                                            </h3>
+                                            </a>
+                                    </div>
                                 </div>
 
                                 <div class="footer-tittle">
@@ -1301,7 +1287,57 @@
         <!-- Footer End-->
     </footer>
 
-
+    <style>
+        .footer-logo .logo a{
+            justify-content: center;
+        }
+        .logo a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .logo a h3{
+            margin: 0;
+          font-weight: 900 !important;
+          font-family: unset;
+            background: linear-gradient(to right,#d9b078,#343a40);
+            background-clip: text;
+            color: transparent;
+            font-size: 1.5rem;
+            /* text-align: center; */
+        }
+        .logo a h3 p{
+            color: transparent;
+            margin: 0;
+            font-weight: 500;
+        }
+        @media(max-width:992px){
+            .footer-logo .logo a{
+            justify-content: flex-start;
+        }
+            .logo a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .logo a h3{
+            margin: 0;
+          font-weight: 900 !important;
+          font-family: unset;
+            background: linear-gradient(to right,#d9b078,#343a40);
+            background-clip: text;
+            color: transparent;
+            font-size: 1.2rem;
+            
+        }
+        .logo a h3 p{
+            color: transparent;
+            margin: 0;
+            font-weight: 500;
+            font-size: 0.8rem;
+        }
+        }
+    </style>
     <!-- Scroll Up -->
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
