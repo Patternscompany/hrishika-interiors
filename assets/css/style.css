@@ -9173,6 +9173,7 @@ del {
 .imgsizes {
   /* height: 50px; */
   width: 90px;
+  padding: 0.6rem;
 }
 @media (max-width:992px){
     .imgsizes{
