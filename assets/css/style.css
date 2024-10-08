@@ -2911,8 +2911,8 @@ hero-btn {
 /* line 615, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .preloader .preloader-circle {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   position: relative;
   border-style: solid;
   border-width: 1px;
@@ -2961,7 +2961,8 @@ hero-btn {
 /* line 658, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 
 .preloader .preloader-img img {
-  max-width: 150px;
+  max-width: 80px;
+  padding: 0.5rem;
 }
 
 /* line 661, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -9171,7 +9172,7 @@ del {
 
 .imgsizes {
   /* height: 50px; */
-  width: 250px;
+  width: 90px;
 }
 @media (max-width:992px){
     .imgsizes{
