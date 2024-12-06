@@ -9172,7 +9172,7 @@ del {
 
 .imgsizes {
   /* height: 50px; */
-  width: 90px;
+  width: 300px;
   padding-block: 0.6rem;
   padding-inline: 0.2rem;
 }
@@ -9191,12 +9191,12 @@ del {
 }
 
 .footer-logo .logo a{
-  justify-content: center;
+  /* justify-content: center; */
 }
 .logo a{
-display: flex;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 }
 .logo a h3{
   margin: 0;
